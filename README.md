@@ -1,17 +1,62 @@
-# ppb_produk_bawaan
+# Aplikasi Katalog Produk - DummyJSON
 
-A new Flutter project.
+Aplikasi katalog produk berbasis Flutter yang menggunakan DummyJSON API untuk mengambil dan menampilkan data produk. Aplikasi ini dibuat sebagai tugas mata kuliah Pemrograman Perangkat Bergerak (PPB).
 
-## Getting Started
+## Fitur Aplikasi
 
-This project is a starting point for a Flutter application.
+- Menampilkan daftar produk dari DummyJSON API.
+- Menampilkan detail produk yang dipilih.
+- Mencari produk berdasarkan kata kunci.
+- Menampilkan informasi dan gambar produk dari API.
 
-A few resources to get you started if this is your first Flutter project:
+## Teknologi yang Digunakan
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- Flutter
+- Dart
+- DummyJSON REST API
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## API yang Digunakan
+
+API utama: https://dummyjson.com/products
+
+API detail produk: https://dummyjson.com/products/1
+
+API pencarian produk: https://dummyjson.com/products/search?q=phone
+
+## Cara Menjalankan Aplikasi
+
+1. Pastikan Flutter SDK sudah terpasang.
+2. Clone repository ini:
+
+   ```bash
+   git clone https://github.com/regiailmaanastasya-web/ppb-product-tugas2.git
+   ```
+
+3. Masuk ke folder project:
+
+   ```bash
+   cd ppb-product-tugas2
+   ```
+
+4. Unduh dependency:
+
+   ```bash
+   flutter pub get
+   ```
+
+5. Jalankan aplikasi pada perangkat yang terhubung:
+
+   ```bash
+   flutter run
+   ```
+
+## Video Demonstrasi
+
+Link YouTube:
+
+## Identitas
+
+- Nama: Regia Ilma Anastasya
+- NIM: 240102110
+- Program Studi: Teknik Informatika
+- Mata Kuliah: Pemrograman Perangkat Bergerak
