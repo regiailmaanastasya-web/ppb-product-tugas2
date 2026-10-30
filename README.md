@@ -52,7 +52,7 @@ API pencarian produk: https://dummyjson.com/products/search?q=phone
 
 ## Video Demonstrasi
 
-Link YouTube:
+Link YouTube: https://youtu.be/TFdfZv5AhvE
 
 ## Identitas
 
